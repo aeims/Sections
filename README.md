@@ -7,7 +7,7 @@
 4. we will use .gitignore file to ignore other sections and just submit our section.
 5. if other sections needed bug fixes then after fixing bug we will undo the ignoring and push the changes and then again ignore the sections in
 .gitignore file.
-5.1 when working on code goto .gitignore file and comment your section name so git will follow your changes.
+6. when working on code goto .gitignore file and comment your section name so git will follow your changes.
 # tutorials
 `snake case`: names are given word by word and splited by ' - '. for example: my_test, this_is_a_function, lovely_day
 but please avoid using long names and come up with names that are small and understandable i.e: apply_raise, del_raise
