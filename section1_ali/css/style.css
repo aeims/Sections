@@ -162,3 +162,54 @@ a{
         margin: 10px 0px;
     }
 }
+
+
+/* ------------------- */
+
+.about{
+    text-align: center;
+    padding: 100px 0px;
+}
+.about-header h2{
+    font-size: 42px ;
+    margin-bottom: 12px;
+    color: #474747;
+}
+.about-header p{
+    font-size: 20px;
+    color: #858585;
+}
+.about-content{
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    margin: 60px auto;
+    width: 90%;
+    padding-top: 60px;
+}
+.about-content >*{
+    float: left;
+}
+.about-content::before,
+.about-content::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.profile{
+    width: 25%;
+    margin-bottom: 60px;
+    text-align: left;
+
+}
+.profile img{
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px;
+}
+.profile h4{
+    margin-top: 20px;
+}
+.profile p{
+    line-height: 25px;
+    color: #858585;
+}
