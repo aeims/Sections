@@ -50,6 +50,7 @@ a{
     text-align: center;
     font-size: 1.5vw;
     color: #ffffff;
+
 }
 .btn-gray{
     background-color: #fff;
@@ -65,6 +66,9 @@ a{
 .btn-dark{
     background-color: #383b43 !important;
     color: #ffffff !important;
+}
+.btn:hover{
+    opacity: 90%;
 }
 .banner-content{
     text-align: center;
@@ -211,5 +215,81 @@ a{
 }
 .profile p{
     line-height: 25px;
+    color: #858585;
+}
+
+.about-footer p{
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.about-footer{
+    width: 65%;
+    margin:0 auto;
+}
+/*--------------------------*/
+.contact{
+    background-color: #3cadd4;
+    color: #ffffff;
+    padding: 100px 0;
+
+}
+.contact-header{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.contact-header h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contact-header p{
+    font-size: 20px;
+}
+
+.contact-content{
+    text-align: center;
+}
+input[type="text"],
+input[type="email"]{
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 7px;
+    width: 25%;
+    margin: 0 10px;
+}
+textarea{
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    height: 200px;
+    padding: 15px 25px;
+    width: 50%;
+    margin-top: 20px;
+
+}
+.contact-content button{
+    margin-top: 20px;
+}
+::placeholder{
+    color: #858585 !important;
+    font-size: 15px;
+    font-family: "Relawy";
+}
+
+/*-------------------------------*/
+.footer{
+    background-color: #383b43;
+    padding: 100px 0px;
+}
+.copy-right li{
+    color: #858585;
+    display: inline;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+.copy-right a{
     color: #858585;
 }
