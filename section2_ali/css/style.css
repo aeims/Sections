@@ -357,3 +357,25 @@ a:hover>b {
         margin-bottom: 10px !important;
     }
 }
+.container{
+    width: 100%;
+    margin-top: 50px;
+}
+.main{
+    float: left;
+    width: calc(calc(200% / 3) - 25px);
+    margin-right: 25px;
+}
+.main-news{
+    margin-bottom: 20px;
+}
+.main-news-img{
+    width: 100%;
+}
+.main-news-w-50{
+    width: calc(50% - 25px);
+    float: left;
+}
+.main-news-w-50:first-of-type{
+    margin-right: 25px;
+}
