@@ -527,3 +527,59 @@ a:hover>b {
     font-size: 14px;
     padding-top: 15px;
 }
+.footer-menu{
+    float: left;
+    list-style: none;
+    width: 50%;
+    padding: 0;
+}
+.footer-menu li{
+    display: inline-block;
+    padding: 0 20px 20px 0;
+}
+.footer-menu li a{
+    color: white;
+    font-size: 12px;
+}
+.footer-menu li a:hover{
+    color: #f9b500;
+}
+.footer-social-network{
+    list-style: none;
+    padding: 0;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.footer-social-network li{
+    padding: 0 0 20px 20px;
+    display: inline-block;
+}
+.footer-social-network li a{
+    color: #cccccc;
+    font-size: 12px;
+}
+@media(max-width:575.98px){
+    .footer-col{
+        float: none;
+        width: calc(100% - 30px);
+        padding: 15px;
+        margin-right: 0;
+    }
+    .footer-menu{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-menu li{
+        padding: 10px;
+    }
+    .footer-social-network{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-social-network li {
+        padding: 10px;
+    }
+}
